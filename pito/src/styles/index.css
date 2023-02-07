@@ -188,7 +188,7 @@ input[type="button"] {
 }
 
 body {
-  background-color: black;
+  background-color: #1a1a1a;
   overflow-x: hidden;
 }
 
@@ -218,7 +218,7 @@ body {
 
 .Home-Container img {
   width: 100%;
-  height: 35rem;
+  height: 30rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -264,5 +264,53 @@ body {
 
 .Home-Container .Flex-Home button:hover h2 {
   font-size: 3rem;
+}
+
+.workout-header {
+  text-align: center;
+  font-family: anime;
+  color: #0059e0;
+  font-size: 3rem;
+}
+
+.workouts-container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.workouts-container .workout {
+  width: 25rem;
+  height: 35rem;
+  margin-top: 2rem;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.workouts-container .workout h3 {
+  text-align: center;
+  color: #0059e0;
+  font-size: 2rem;
+  font-family: anime;
+  margin-top: 2rem;
+}
+
+.workouts-container .workout ul {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workouts-container .workout ul li {
+  margin-top: 1.5rem;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,36 @@
+.workout-header{
+    text-align: center;
+    font-family: anime;
+    color: $pink;
+    font-size:3rem;
+}
+.workouts-container{
+    width: 85%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;   
+    .workout{
+        width:25rem;
+        height:35rem;
+        margin-top:2rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        h3{
+            text-align: center;
+            color: $pink;
+            font-size:2rem;
+            font-family: anime;
+            margin-top: 2rem;
+        }
+        ul{
+            width: 70%;
+            margin-left: auto;
+            margin-right:auto;
+            li{
+                margin-top:1.5rem;
+                color: white;
+            }
+        }
+    }
+}
