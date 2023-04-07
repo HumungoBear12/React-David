@@ -10,9 +10,9 @@ const home = () => {
         <img src="https://wallpaper.dog/large/17051111.jpg" alt=""/>
         <h1>Chosen Rosen </h1>
         <div className="Flex-Home">
-            <a href="https://www.tiktok.com/@chosen.rosen?is_from_webapp=1&sender_device=pc"><button><h2>Tiktok</h2></button></a>
+            <Link to="/socials"><button><h2>Socials</h2></button></Link>
             <Link to='/workouts'><button><h2>Workouts</h2></button></Link>
-            <a href="https://www.youtube.com/@Chosen_Rosen"><button><h2>Youtube</h2></button></a>
+            <Link to="/insparations"><button><h2>Inspirations</h2></button></Link>
         </div>
     </div>
   )

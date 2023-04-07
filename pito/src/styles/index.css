@@ -188,7 +188,7 @@ input[type="button"] {
 }
 
 body {
-  background-color: #1a1a1a;
+  background-color: #e4e4e4;
   overflow-x: hidden;
 }
 
@@ -244,8 +244,8 @@ body {
   height: 4rem;
   border-radius: .75rem;
   background-color: transparent;
-  -webkit-box-shadow: #0059e0 0px 14px 25px, #0059e0 0px -12px 30px, #0059e0 0px 4px 6px, #0059e0 0px -3px 5px;
-          box-shadow: #0059e0 0px 14px 25px, #0059e0 0px -12px 30px, #0059e0 0px 4px 6px, #0059e0 0px -3px 5px;
+  -webkit-box-shadow: #0059e0 0px 1px 10px, #0059e0 0px -1px 1px, #0059e0 0px 4px 6px, #0059e0 0px -3px 5px;
+          box-shadow: #0059e0 0px 1px 10px, #0059e0 0px -1px 1px, #0059e0 0px 4px 6px, #0059e0 0px -3px 5px;
   padding: 10px;
 }
 
@@ -256,14 +256,14 @@ body {
 }
 
 .Home-Container .Flex-Home button:hover {
-  -webkit-box-shadow: #0059e0 0px -5px 55px, #0059e0 0px -12px 30px, #0059e0 0px 4px 6px, #0059e0 0px 12px 13px, #0059e0 0px -3px 5px;
-          box-shadow: #0059e0 0px -5px 55px, #0059e0 0px -12px 30px, #0059e0 0px 4px 6px, #0059e0 0px 12px 13px, #0059e0 0px -3px 5px;
-  height: 5rem;
-  width: 20rem;
+  -webkit-box-shadow: #0059e0 0px -2px 1px, #0059e0 0px -2px 5px, #0059e0 0px 4px 6px, #0059e0 0px 2px 3px, #0059e0 0px -3px 5px;
+          box-shadow: #0059e0 0px -2px 1px, #0059e0 0px -2px 5px, #0059e0 0px 4px 6px, #0059e0 0px 2px 3px, #0059e0 0px -3px 5px;
+  height: 4.1rem;
+  width: 19rem;
 }
 
 .Home-Container .Flex-Home button:hover h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 
 .workout-header {
@@ -312,5 +312,62 @@ body {
 .workouts-container .workout ul li {
   margin-top: 1.5rem;
   color: white;
+}
+
+.social-container .social-title {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #0059e0;
+  font-family: anime;
+}
+
+.social-container hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: black 1px solid;
+  display: block;
+}
+
+.social-container .social-youtube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 4rem;
+}
+
+.social-container .social-youtube .youtube-one {
+  padding: 15px;
+  width: 50%;
+}
+
+.social-container .social-youtube .youtube-one h3 {
+  text-align: center;
+  color: #0059e0;
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.social-container .social-youtube .youtube-one hr {
+  border-top: 1px solid black;
+}
+
+.social-container .social-youtube .youtube-one iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.social-container .social-youtube .youtube-two {
+  width: 50%;
 }
 /*# sourceMappingURL=index.css.map */

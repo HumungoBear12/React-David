@@ -1,6 +1,8 @@
 import {React} from 'react'
 import Home from './Pages/Home'
 import Workout from './Pages/Workouts'
+import Insparations from './Pages/Insparations'
+import Socials from './Pages/Socials'
 import {
     BrowserRouter as Router,
     Routes,
@@ -19,6 +21,8 @@ const App = () => {
                             <Routes>
                                 <Route index element={<Home />} />
                                 <Route path='workouts' element={(<Workout/>)} />
+                                <Route path='socials' element={(<Socials/>)}/>
+                                <Route path='insparations' element={(<Insparations/>)}/>
                             </Routes>
                         </div>
                 </Router>
