@@ -13,11 +13,8 @@ const Socials = () => {
           </div>
           <div className="youtube-two">
             <h2>Youtube Channel: Chosen_Rosen</h2>
-            <div>
-              <img src="" alt="" />
-              <a href="https://www.youtube.com/@Chosen_Rosen"><button>Click here</button></a>
-            </div>
-            
+            <hr/>
+            <a href="https://www.youtube.com/@Chosen_Rosen"><button>Click here</button></a>
           </div>
         </div>
     </div>

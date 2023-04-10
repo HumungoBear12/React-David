@@ -369,5 +369,30 @@ body {
 
 .social-container .social-youtube .youtube-two {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -5rem;
+}
+
+.social-container .social-youtube .youtube-two h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0059e0;
+}
+
+.social-container .social-youtube .youtube-two img {
+  height: 20rem;
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=index.css.map */
